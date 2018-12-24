@@ -36,3 +36,14 @@ var destructivelyRemoveElementFromBeginningOfArray = (arr) => {
 var removeElementFromBeginningOfArray = (arr) => {
 	return arr.slice(1);	
 };
+
+// TODO 7 : create a function that removes last element in an array
+var destructivelyRemoveElementFromEndOfArray = (arr) => {
+	arr.pop();
+	return arr;
+};
+
+// TODO 8 : create a function that slices last element in an array
+var removeElementFromEndOfArray = (arr) => {
+	return arr.slice(0, arr.length -1);
+};
