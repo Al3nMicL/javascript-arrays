@@ -20,3 +20,19 @@ var destructivelyAddElementToEndOfArray = (arr, elem) => {
 	arr.push(elem);
 	return arr;
 };
+
+// TODO 4 : create a function that accesses an an array
+var accessElementInArray = (arr, idx) => {
+	return arr[idx];
+};
+
+// TODO 5 : create a function that removes first element in an array
+var destructivelyRemoveElementFromBeginningOfArray = (arr) => {
+	arr.shift();
+	return arr;
+};
+
+// TODO 6 : create a function that slices first element in an array
+var removeElementFromBeginningOfArray = (arr) => {
+	return arr.slice(1);	
+};
